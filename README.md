@@ -5,7 +5,7 @@ o zaman ki amatör kodlarım ,o yıllarda crack nasıl yapılır ,sistem yazıl�
 Amatör olarak eğlencesine ve öğrenmek için bunları yapmıştım.
 
 <br>
-2005-2008 ortalrındaki çalışmalardır
+2005-2008 ortalarındaki çalışmalardır
 
 
 
