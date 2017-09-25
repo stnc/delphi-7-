@@ -37,16 +37,18 @@ Amatör olarak eğlencesine ve öğrenmek için bunları yapmıştım.
 
 
 <br>
+### Eliptik Form
+<br>
+<img src="https://github.com/stnc/delphi7/blob/master/screenshots/eliptik_form_crack.png?raw=true">
+
+
+<br>
 
 ### Bilgisayar açılırken çalışan programlar "ccleaner de bulunan özellik "
 
 <img src="https://github.com/stnc/delphi7/blob/master/screenshots/acilis_screenshot.png?raw=true">
 
 <br>
-
-### Eliptik Form
-<br>
-<img src="https://github.com/stnc/delphi7/blob/master/screenshots/eliptik_form_crack.png?raw=true">
 
 
 <br>
@@ -68,7 +70,7 @@ Amatör olarak eğlencesine ve öğrenmek için bunları yapmıştım.
 
 
 <br>
-### Çok basit resim programı 
+### basit resim programı 
 
 <img src="https://github.com/stnc/delphi7/blob/master/screenshots/picture_manager.png?raw=true">
 
