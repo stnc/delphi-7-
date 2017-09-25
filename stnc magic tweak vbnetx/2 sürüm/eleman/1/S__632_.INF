@@ -1,0 +1,105 @@
+[version]
+signature="$CHICAGO$"
+SetupClass=BASE
+
+[DefaultInstall]
+CopyFiles=FoldersDll.sys.install,IconsDll.sys.install,FoldersHlp.sys.install
+AddReg=FoldersDll.Add.Reg,FoldersDll.Uninst.Reg
+Ini2Reg=FoldersDll.Add.Ini2Reg
+
+[DefaultInstall.ntx86]
+CopyFiles=FoldersDll.sys.install,IconsDll.sys.install,FoldersHlp.sys.install
+AddReg=Folders.Add.Reg,TestDll.Uninst.Reg.NT
+Ini2Reg=FoldersDll.Add.Ini2Reg
+
+[ContentInstall]
+CopyFiles=FoldersDll.sys.install,IconsDll.sys.install,FoldersHlp.sys.install
+AddReg=FoldersDll.Add.Reg,FoldersDll.Uninst.Reg
+Ini2Reg=FoldersDll.Add.Ini2Reg
+
+[DefaultUninstall]
+DelReg=FoldersDll.Add.Reg,FoldersDll.Uninst.Reg
+DelFiles=FoldersDll.sys.uninstall,IconsDll.sys.install,FoldersHlp.sys.install,Gen.sys.install
+AddReg=FoldersDll.UninstRun.Reg
+
+[DefaultUninstall.ntx86]
+DelReg=FoldersDll.Add.Reg,FoldersDll.Uninst.Reg.NT
+DelFiles=FoldersDll.sys.uninstall,IconsDll.sys.install,FoldersHlp.sys.install,Gen.sys.install
+AddReg=FoldersDll.UninstRun.Reg
+
+[FoldersDll.Add.Reg]
+HKCR,CLSID\%AFCLSID%,,,"File Folder"       ;"%Content_DESC%"
+HKCR,CLSID\%AFCLSID%\DefaultIcon,,,"%1"
+HKCR,CLSID\%AFCLSID%\InProcServer32,,,"%11%\%SubDir%\%FoldersDll%"
+HKCR,CLSID\%AFCLSID%\InProcServer32,ThreadingModel,,"Apartment"
+HKCR,CLSID\%AFCLSID%\shellex\IconHandler,,,%AFCLSID%
+HKCR,Folder\shellex\PropertySheetHandlers\FoldersPage,,,%AFCLSID%
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\Shell%SP%Extensions\Approved,%AFCLSID%,,"AnyFolder shell extension"
+HKLM,%SMWCV%\RunOnce\Setup,%AFSTUP%,,"RUNDLL32.EXE Folders.dll,Install"
+HKLM,%SMWCV%\RunOnce\Setup,%AFHLP%,,"WINHLP32.EXE -i FIRST %18%\Folders.HLP"
+
+
+[FoldersDll.Uninst.Reg]
+HKLM,%SMWCV%\Uninstall\FoldersDLL,,,
+HKLM,%SMWCV%\Uninstall\FoldersDLL,"UninstallString",,"rundll.exe setupx.dll,InstallHinfSection DefaultUnInstall 4 %11%\%SubDir%\Folders.inf"
+HKLM,%SMWCV%\Uninstall\FoldersDLL,"DisplayName",,%Content_DESC%
+
+
+[FoldersDll.Uninst.Reg.ntx86]
+HKLM,%SMWCV%\Uninstall\FoldersDLL,,,
+HKLM,%SMWCV%\Uninstall\FoldersDLL,"DisplayName",,%Content_DESC%
+HKLM,%SMWCV%\Uninstall\FoldersDLL,"UninstallString",,"RunDll32 syssetup.dll,SetupInfObjectInstallAction DefaultUnInstall.NT 4 %11%\%SubDir%\Folders.inf"
+
+[FoldersDll.UninstRun.Reg]
+HKLM,%SMWCV%\RunOnce\Setup,%AFSEARCH%,,"RUNDLL32.EXE %11%\%SubDir%\Folders.dll,Uninstall"
+
+
+[FoldersDll.sys.install]
+Folders.dll
+Folders.inf
+
+[IconsDll.sys.install]
+AFIcons.dll
+
+[FoldersHlp.sys.install]
+Folders.hlp
+
+[FoldersDll.sys.uninstall]
+Folders.inf
+
+[Gen.sys.install]
+Folders.gid
+;Folders.fts
+
+[FoldersDll.Add.Ini2Reg]
+win.ini,Desktop,Wallpaper,HKLM,%BK%,2
+win.ini,Desktop,TileWallpaper,HKLM,%BK%,2
+
+[DestinationDirs]
+FoldersDll.sys.install=11,%SubDir%
+FoldersDll.sys.uninstall=11,%SubDir%
+IconsDll.sys.install=11
+FoldersHlp.sys.install=18
+Gen.sys.install=18
+
+[SourceDisksNames]
+1="AnyFolder 1.0.01","Artem Lin",1
+
+[SourceDisksFiles]
+%FoldersDll%=1
+%IconsDll%=1
+Folders.inf=1
+Folders.hlp=1
+
+[Strings]
+Content_DESC =  "AnyFolder shell extension"
+SubDir =        "ShellExt"
+IconsDll =      "AFIcons.dll"
+FoldersDll =    "Folders.dll"
+AFSTUP =        "AnyFolder shell extension"
+AFHLP =         "AnyFolder Context Help"
+AFSEARCH =      "Clear custom icons from folders"
+AFCLSID =       "{5E676C24-194A-11d1-9FCB-4854E821E610}"
+SMWCV=          "Software\Microsoft\Windows\CurrentVersion"
+BK="Software\Microsoft\Windows\CurrentVersion\Setup"
+SP=" "

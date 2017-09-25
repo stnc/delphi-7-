@@ -1,0 +1,41 @@
+{//harbi tam ekran kodu
+setwindowpos(form1.Handle,hwnd_notopmost,0,0,getsystemmetrics(sm_cxscreen),getsystemmetrics(sm_cyscreen),0);
+setwindowpos(form1.Handle,hwnd_topmost,0,0,getsystemmetrics(sm_cxscreen),getsystemmetrics(sm_cyscreen),swp_nomove);
+setforegroundwindow(form1.Handle);
+//SetWindowLongA(Handle,GWL_style,WS_EX_TOOLWINDOW) ;  //baþlýk cubugunu kapat   }
+
+
+//  Form1.FormStyle:=fsStayOnTop;// herzaman ustte olsun faklý bir yol
+
+
+
+             //MediaPlayer1.Top:=ClientHeight-30;
+//ShowMessage('uyarý');
+
+        //MediaPlayer1.Display :=Panel1 ;
+
+
+
+    // form3. ScrollBar1.Max := MediaPlayer1.Length;
+// Form1.WindowState :=wsMaximized;//tam ekran için once form buyutulur
+ //Show;
+
+
+   // tam ekran formul yap
+    {
+               // form3. ScrollBar1.Max := MediaPlayer1.Length;
+               //form3.ProgressBar1.Max:=MediaPlayer1.Length;
+     //form3.Gauge1.MaxValue :=MediaPlayer1.Length;
+    //Form1.Caption:=IntToStr (ProgressBar1.max);
+                         // form3.Timer1.Enabled:=True;
+                                //avi dosyasini panel e yayyarak genisletme komutu//
+   {ScrollBar1.Position := 0;
+     ProgressBar1.Position:=0;
+     Gauge1.Progress:=0;  }
+         //form 3
+         { form3.ScrollBar1.Position := 0;
+         form3.   ProgressBar1.Position:=0;
+         form3.   Gauge1.Progress:=0; }
+      // MediaPlayer1.DisplayRect := Rect(0 , 0, Form1.Clientwidth, Form1.ClientHeight);
+   // ScrollBar1.Max := MediaPlayer1.Length;
+    //ProgressBar1.Max:=MediaPlayer1.Length;}

@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{749EB782-D654-49E7-9030-EE4D00AC153C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Stnc Tweaker</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>shell32_47.ico</ApplicationIcon>
+    <PublishUrl>http://localhost/Stnc Tweaker/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Stnc Tweaker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Stnc Tweaker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="araclar.Designer.vb">
+      <DependentUpon>araclar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="araclar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baslat_mnu.Designer.vb">
+      <DependentUpon>baslat_mnu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="baslat_mnu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="denetim_masa.Designer.vb">
+      <DependentUpon>denetim_masa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="denetim_masa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="donanim.Designer.vb">
+      <DependentUpon>donanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="donanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guvenlik.Designer.vb">
+      <DependentUpon>guvenlik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="guvenlik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="internet.Designer.vb">
+      <DependentUpon>internet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="internet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="internet_box.Designer.vb">
+      <DependentUpon>internet_box.vb</DependentUpon>
+    </Compile>
+    <Compile Include="internet_box.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masaustu.Designer.vb">
+      <DependentUpon>masaustu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masaustu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="media_player.Designer.vb">
+      <DependentUpon>media_player.vb</DependentUpon>
+    </Compile>
+    <Compile Include="media_player.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="outlook.Designer.vb">
+      <DependentUpon>outlook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="outlook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sistem dos.Designer.vb">
+      <DependentUpon>sistem dos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sistem dos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sistem klasörleri.Designer.vb">
+      <DependentUpon>sistem klasörleri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sistem klasörleri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sistem.Designer.vb">
+      <DependentUpon>sistem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sistem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sistem_bil.Designer.vb">
+      <DependentUpon>sistem_bil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sistem_bil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tweak_tweak.Designer.vb">
+      <DependentUpon>tweak_tweak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tweak_tweak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İndex.Designer.vb">
+      <DependentUpon>İndex.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="araclar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>araclar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baslat_mnu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>baslat_mnu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="denetim_masa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>denetim_masa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="donanim.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>donanim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guvenlik.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>guvenlik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="internet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>internet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="internet_box.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>internet_box.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masaustu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>masaustu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="media_player.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>media_player.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="outlook.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>outlook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sistem dos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sistem dos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sistem klasörleri.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sistem klasörleri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sistem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sistem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sistem_bil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sistem_bil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tweak_tweak.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>tweak_tweak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İndex.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>İndex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\86.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\69.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\280.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\279.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pan setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bleu 128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\197.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\88.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkafon.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fon2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel fon.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sd %28118%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_177.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dx.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network %285%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Internet Shortcut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Control Panel.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Folder.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Documents &amp; Settings Folder.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sd %2872%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\231.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_512.ico" />
+    <None Include="Resources\son hali.jpg" />
+    <None Include="Resources\güvenlik %281%29.ico" />
+    <Content Include="shell32_47.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

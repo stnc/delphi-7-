@@ -1,0 +1,235 @@
+object Form1: TForm1
+  Left = 252
+  Top = 368
+  BorderStyle = bsDialog
+  Caption = 'STnc Software En basitinden Hesap MAkinesi Ver: 1.00'
+  ClientHeight = 354
+  ClientWidth = 334
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 16
+    Width = 111
+    Height = 13
+    Caption = 'Birinci '#304#351'lemi Giriniz'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 48
+    Width = 107
+    Height = 13
+    Caption = #304'kinci '#304#351'lemi Giriniz'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 80
+    Width = 39
+    Height = 13
+    Caption = 'SOnuc'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 184
+    Top = 16
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 184
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 184
+    Top = 80
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object Button_4: TButton
+    Left = 128
+    Top = 240
+    Width = 75
+    Height = 25
+    Caption = '4'
+    TabOrder = 3
+    OnClick = Button_4Click
+  end
+  object Button_3: TButton
+    Left = 32
+    Top = 280
+    Width = 75
+    Height = 25
+    Caption = '3'
+    TabOrder = 4
+    OnClick = Button_3Click
+  end
+  object Button_6: TButton
+    Left = 128
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = '6'
+    TabOrder = 5
+    OnClick = Button_6Click
+  end
+  object Button_8: TButton
+    Left = 32
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = '8'
+    TabOrder = 6
+    OnClick = Button_8Click
+  end
+  object Button_2: TButton
+    Left = 128
+    Top = 280
+    Width = 75
+    Height = 25
+    Caption = '2'
+    TabOrder = 7
+    OnClick = Button_2Click
+  end
+  object Button_5: TButton
+    Left = 32
+    Top = 240
+    Width = 75
+    Height = 25
+    Caption = '5'
+    TabOrder = 8
+    OnClick = Button_5Click
+  end
+  object Button_7: TButton
+    Left = 32
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = '7'
+    TabOrder = 9
+    OnClick = Button_7Click
+  end
+  object Button_9: TButton
+    Left = 128
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = '9'
+    TabOrder = 10
+  end
+  object acik: TButton
+    Left = 32
+    Top = 120
+    Width = 75
+    Height = 25
+    Caption = 'acik'
+    TabOrder = 11
+  end
+  object kapali: TButton
+    Left = 128
+    Top = 120
+    Width = 75
+    Height = 25
+    Caption = 'kapali'
+    TabOrder = 12
+  end
+  object temizle: TButton
+    Left = 216
+    Top = 120
+    Width = 75
+    Height = 25
+    Caption = 'temizle'
+    TabOrder = 13
+  end
+  object eksi: TButton
+    Left = 216
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = '-'
+    TabOrder = 14
+  end
+  object arti: TButton
+    Left = 216
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = '+'
+    TabOrder = 15
+  end
+  object carp: TButton
+    Left = 216
+    Top = 240
+    Width = 75
+    Height = 25
+    Caption = '*'
+    TabOrder = 16
+  end
+  object bolu: TButton
+    Left = 216
+    Top = 280
+    Width = 75
+    Height = 25
+    Caption = '/'
+    TabOrder = 17
+  end
+  object esittir: TButton
+    Left = 216
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = '='
+    TabOrder = 18
+  end
+  object Button_0: TButton
+    Left = 128
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = '0'
+    TabOrder = 19
+    OnClick = Button_0Click
+  end
+  object Button_1: TButton
+    Left = 32
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = '1'
+    TabOrder = 20
+    OnClick = Button_1Click
+  end
+  object XPManifest1: TXPManifest
+    Left = 304
+    Top = 312
+  end
+end

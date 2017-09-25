@@ -1,0 +1,11 @@
+bin\Debug\WindowsApplication8.exe
+bin\Debug\WindowsApplication8.pdb
+bin\Debug\WindowsApplication8.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsApplication8.Form1.resources
+obj\Debug\WindowsApplication8.Resources.resources
+obj\Debug\WindowsApplication8.vbproj.GenerateResource.Cache
+obj\Debug\WindowsApplication8.exe
+obj\Debug\WindowsApplication8.xml
+obj\Debug\WindowsApplication8.pdb
+obj\Debug\WindowsApplication8.Form2.resources

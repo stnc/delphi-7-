@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\HowTo.DirectoryScanner.resources
+obj\Debug\HowTo.DirectoryTreeView.resources
+obj\Debug\HowTo.ExplorerStyleViewer.resources
+obj\Debug\HowTo.FileListView.resources
+obj\Debug\HowTo.MenuItemView.resources
+obj\Debug\HowTo.frmAbout.resources
+obj\Debug\HowTo.frmMain.resources
+obj\Debug\How-To Create an Explorer-Style Application.vbproj.GenerateResource.Cache
+bin\How-To Create an Explorer-Style Application.exe
+bin\How-To Create an Explorer-Style Application.pdb
+bin\How-To Create an Explorer-Style Application.xml
+obj\Debug\How-To Create an Explorer-Style Application.exe
+obj\Debug\How-To Create an Explorer-Style Application.xml
+obj\Debug\How-To Create an Explorer-Style Application.pdb

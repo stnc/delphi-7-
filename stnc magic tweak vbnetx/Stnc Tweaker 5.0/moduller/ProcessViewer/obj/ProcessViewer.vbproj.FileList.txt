@@ -1,0 +1,11 @@
+bin\Debug\ProcessViewer.exe
+bin\Debug\ProcessViewer.pdb
+bin\Debug\ProcessViewer.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProcessViewer.MainForm.resources
+obj\Debug\ProcessViewer.Modules.resources
+obj\Debug\ProcessViewer.Resources.resources
+obj\Debug\ProcessViewer.vbproj.GenerateResource.Cache
+obj\Debug\ProcessViewer.exe
+obj\Debug\ProcessViewer.xml
+obj\Debug\ProcessViewer.pdb

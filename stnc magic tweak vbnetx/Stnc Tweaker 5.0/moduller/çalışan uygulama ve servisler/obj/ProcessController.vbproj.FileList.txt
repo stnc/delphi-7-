@@ -1,0 +1,10 @@
+bin\ProcessController.exe
+bin\ProcessController.pdb
+bin\ProcessController.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProcessController.WindowsApplication1.MainForm.resources
+obj\Debug\ProcessController.WindowsApplication1.ServiceInfo.resources
+obj\Debug\ProcessController.vbproj.GenerateResource.Cache
+obj\Debug\ProcessController.exe
+obj\Debug\ProcessController.xml
+obj\Debug\ProcessController.pdb

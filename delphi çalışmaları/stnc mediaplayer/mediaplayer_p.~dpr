@@ -1,0 +1,14 @@
+program mediaplayer_p;
+
+uses
+  Forms,
+  ana_form in 'ana_form.pas' {Form1},
+  procedurler in 'procedurler.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

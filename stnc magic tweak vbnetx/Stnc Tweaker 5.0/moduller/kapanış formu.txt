@@ -1,0 +1,11 @@
+        Private Sub ButtonClose_Click(ByVal Sender As System.Object, ByVal e As System.EventArgs) Handles ButtonClose.Click
+            'Make the Window "Fade away"
+            Dim d As Double
+            For d = 1 To 0 + 0.2 Step -0.2
+                System.Threading.Thread.Sleep(50)
+                Application.DoEvents()
+                Me.Opacity = d
+                Me.Refresh()
+            Next d
+            Environment.Exit(0)
+        End Sub

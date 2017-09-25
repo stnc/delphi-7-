@@ -1,0 +1,10 @@
+bin\Debug\ServiceManager.exe
+bin\Debug\ServiceManager.pdb
+bin\Debug\ServiceManager.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ServiceManager.Form1.resources
+obj\Debug\ServiceManager.Resources.resources
+obj\Debug\ServiceManager.vbproj.GenerateResource.Cache
+obj\Debug\ServiceManager.exe
+obj\Debug\ServiceManager.xml
+obj\Debug\ServiceManager.pdb

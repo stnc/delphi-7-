@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VBMultilingualForm">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\VBMultilingualForm.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\VBMultilingualForm.suo">
+</Property><Property Name="Date" Value="17 Haziran 2006 Cumartesi">
+</Property><Property Name="Time" Value="03:37">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="VBMultilingualForm.sln" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\VBMultilingualForm.sln">
+</Event><Event ErrorLevel="0" Project="" Source="VBMultilingualForm.suo" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\VBMultilingualForm.suo">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="VBMultilingualForm.vbproj" Description="Project file successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\VBMultilingualForm.vbproj">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="VBMultilingualForm.vbproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\VBMultilingualForm.vbproj.user">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="AssemblyInfo.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.de.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.de.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.en-US.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.en-US.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.en.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.en.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.es.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.es.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.fr.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.fr.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.it.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.it.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.ja.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.ja.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.ko.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.ko.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.zh-CHS.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.zh-CHS.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="Form1.zh-CHT.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-Localization-VBMultilingualForm\VBMultilingualForm\Backup\Form1.zh-CHT.resx">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="VBMultilingualForm.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VBMultilingualForm" Source="VBMultilingualForm.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VBMultilingualForm.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="VBMultilingualForm.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VBMultilingualForm" Source="VBMultilingualForm.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,58 @@
+procedure Tgorunum.CheckBox1Click(Sender: TObject);
+   var
+key0,key1: OleVariant;
+reg:tregistry;
+begin
+  reg:=TRegistry.Create;
+  reg.RootKey:=HKEY_CURRENT_USER ;
+  reg.OpenKey ('Software\Microsoft\Windows\CurrentVersion\Policies\System',true);
+                 // if Reg.ValueExists('NoDispSettingsPage') then
+
+                  //alr:=reg.ReadString('NoDispSettingsPage');
+                  key0:= ('00');
+  key1:= ('01');
+
+
+   if  CheckBox1.Checked=true then
+
+  reg.WriteInteger('NoDispSettingsPage',key1)
+     else
+     reg.WriteInteger('NoDispSettingsPage',key0) ;
+      //CheckBox1.Checked:=false;
+     reg.Free;
+       end;
+
+
+//dosya okur   
+
+procedure Tgorunum.FormCreate(Sender: TObject);
+var
+
+alr: OleVariant;
+reg:tregistry;
+//oku: OleVariant;
+//okul:integer;
+begin
+image1.Picture.Bitmap.LoadFromResourceName(HInstance,'SKK_1_RES');
+Reg:=TRegistry.Create;
+
+begin
+
+  reg.RootKey:=HKEY_CURRENT_USER ;
+  reg.OpenKey ('Software\Microsoft\Windows\CurrentVersion\Policies\System',true);
+                 if Reg.ValueExists('NoDispSettingsPage') then
+
+                  alr:=reg.ReadInteger ('NoDispSettingsPage');
+                  // begin
+
+  //key1:= ('01');
+   if  alr=1 then
+                 CheckBox1.Checked:=true
+  //reg.WriteInteger('NoDispSettingsPage',key0)
+     else
+       //reg.WriteInteger('NoDispSettingsPage',key1) ;
+      CheckBox1.Checked:=false;
+    // reg.Free;
+       end;
+            //end;
+end;

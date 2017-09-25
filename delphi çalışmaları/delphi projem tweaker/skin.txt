@@ -1,0 +1,1 @@
+SKK_1_RES BITMAP "res.bmp"

@@ -1,0 +1,100 @@
+object Form1: TForm1
+  Left = 192
+  Top = 114
+  Width = 762
+  Height = 540
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Gauge1: TGauge
+    Left = 448
+    Top = 304
+    Width = 100
+    Height = 25
+    ForeColor = clNavy
+    Progress = 0
+  end
+  object Label1: TLabel
+    Left = 472
+    Top = 352
+    Width = 32
+    Height = 13
+    Caption = 'Label1'
+  end
+  object Label2: TLabel
+    Left = 624
+    Top = 328
+    Width = 32
+    Height = 13
+    Caption = 'Label2'
+  end
+  object Button1: TButton
+    Left = 40
+    Top = 432
+    Width = 161
+    Height = 25
+    Caption = 'belgelerim i temizle'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 32
+    Top = 120
+    Width = 75
+    Height = 25
+    Caption = 'dosya sil'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 584
+    Top = 96
+    Width = 75
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 576
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = 'Button4'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object CheckListBox1: TCheckListBox
+    Left = 136
+    Top = 32
+    Width = 257
+    Height = 377
+    ItemHeight = 13
+    TabOrder = 4
+  end
+  object ProgressBar1: TProgressBar
+    Left = 568
+    Top = 304
+    Width = 150
+    Height = 17
+    TabOrder = 5
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 632
+    Top = 168
+  end
+  object XPManifest1: TXPManifest
+    Left = 688
+    Top = 24
+  end
+end

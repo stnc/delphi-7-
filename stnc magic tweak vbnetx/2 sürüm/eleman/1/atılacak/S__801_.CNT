@@ -1,0 +1,19 @@
+:BASE ICONFI~2.hlp
+:TITLE title of this help project
+1 Introduction
+2 Introduction=Introduction
+1 IconFilter
+2 ImageView=ImageView
+2 ButtonBar=ButtonBar
+2 AboutBox=Form1.AboutBox
+2 ProgressDir=Form1.Gauge1
+2 ProgressIcon=Form1.Gauge2
+2 IconSelector=Form1.SpinEdit1
+2 FileFilter=Form1.FilterComboBox1
+2 FileList=Form1.FileListBox1
+2 DirList=Form1.DirectoryListBox1
+1 AllFilesInDir
+2 SaveAsFormat=SelDirForm.RadioGroup1
+2 CreateHTML=SelDirForm.CbxHTML
+2 NewDir=SelDirForm.Edit1
+2 SelectDir=SelDirForm.Panel1

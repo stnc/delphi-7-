@@ -1,0 +1,36 @@
+listbox da alfabetik sýralama 
+{Ýhtiyacýnýz olan sadece bir TListBox ve bir TButton. Basit birkaç düzenleme ile TStringList'de de kullanabilirsiniz.
+if clause'daki "<" operatörü yerine ">" kullanýrsanýrsanýz sýralama yön deðiþtirir}
+
+procedure TForm1.Button1Click(Sender: TObject); 
+var 
+  i, x: Integer; 
+begin 
+  for i := 0 to (ListBox1.Items.Count - 1) do 
+    for x := 0 to (ListBox1.Items.Count - 1) do 
+      if (ListBox1.Items[x] < ListBox1.Items[i]) and (x > i) then 
+      begin 
+        ListBox1.Items.Insert(i, ListBox1.Items[x]); 
+        ListBox1.Items.Delete(x + 1); 
+      end; 
+end;
+
+
+
+ //Listbox ta seçili öðenin algýlanmasý
+procedure...
+var
+  s: Integer;
+begin
+  for s := 0 to (ListBox1.Items.Count - 1) do begin
+  try
+    if ListBox1.Selected[s] then
+    begin
+    deletefile(listbox1.items.strings[s]);
+    end;
+   finally
+   { do something here }
+   end;
+  end;
+end;
+streetangel_forever@hotmail.com

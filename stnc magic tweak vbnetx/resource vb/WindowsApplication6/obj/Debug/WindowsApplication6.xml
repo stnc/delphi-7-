@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApplication6
+</name>
+</assembly>
+<members>
+<member name="P:WindowsApplication6.My.Resources.Resource1.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication6.My.Resources.Resource1.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:WindowsApplication6.My.Resources.Resource1.deneme">
+	<summary>
+  Looks up a localized string similar to kestirme.
+</summary>
+</member><member name="P:WindowsApplication6.My.Resources.Resource1.ingilizce">
+	<summary>
+  Looks up a localized string similar to title.
+</summary>
+</member><member name="T:WindowsApplication6.My.Resources.Resource1">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

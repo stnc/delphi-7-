@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Project1.Form1">
+    <Position X="0.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>Form1.vb</FileName>
+      <HashCode>AAFAAAEAACAAAAAAAACQAAACAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Project1.Form1.ULARGE_INTEGER">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Project1.Form1.SHQUERYRBINFO">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+  </Class>
+</ClassDiagram>

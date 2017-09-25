@@ -1,0 +1,8 @@
+{//harbi tam ekran kodu
+setwindowpos(form1.Handle,hwnd_notopmost,0,0,getsystemmetrics(sm_cxscreen),getsystemmetrics(sm_cyscreen),0);
+setwindowpos(form1.Handle,hwnd_topmost,0,0,getsystemmetrics(sm_cxscreen),getsystemmetrics(sm_cyscreen),swp_nomove);
+setforegroundwindow(form1.Handle);
+//SetWindowLongA(Handle,GWL_style,WS_EX_TOOLWINDOW) ;  //baþlýk cubugunu kapat   }
+
+
+//  Form1.FormStyle:=fsStayOnTop;// herzaman ustte olsun faklý bir yol

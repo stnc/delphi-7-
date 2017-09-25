@@ -1,0 +1,7 @@
+XP Edit 2.0
+
+XP Edit allows you to change various settings in Windows XP, including owner information, mouse and keyboard options, personal folder locations, taskbar options, boot screens and more. The program makes it easy to adjust these options without having to go through multiple Windows dialogs or even registry changes.
+
+Happychicken Technologies
+
+http://www.happychicken.org/

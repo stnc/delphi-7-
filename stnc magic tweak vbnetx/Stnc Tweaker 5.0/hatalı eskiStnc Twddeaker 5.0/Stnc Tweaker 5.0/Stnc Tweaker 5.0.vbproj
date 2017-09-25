@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9202372-82BC-4A30-B8FA-1D934723C48F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Stnc_Tweaker_5._0.My.MyApplication</StartupObject>
+    <RootNamespace>Stnc_Tweaker_5._0</RootNamespace>
+    <AssemblyName>Stnc Tweaker 5.0</AssemblyName>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Stnc_Tweaker_5._0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Stnc_Tweaker_5._0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Index.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.Designer.vb">
+      <DependentUpon>Index.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneller\Kenar_panel.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Registry\araclar.vb" />
+    <Compile Include="Registry\baslat.vb" />
+    <Compile Include="Registry\denetim_masa.vb" />
+    <Compile Include="Registry\donanim.vb" />
+    <Compile Include="Registry\guvenlik.vb" />
+    <Compile Include="Registry\internet.vb" />
+    <Compile Include="Registry\internet_tweak.vb" />
+    <Compile Include="Registry\masaustu.vb" />
+    <Compile Include="Registry\media_player.vb" />
+    <Compile Include="Registry\outlook.vb" />
+    <Compile Include="Registry\sistem_ayar.vb" />
+    <Compile Include="Registry\sistem_bil.vb" />
+    <Compile Include="Registry\sistem_dos.vb" />
+    <Compile Include="Registry\tweak.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Index.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Index.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baslık.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\denetim_masa.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\personal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\sd %28143%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\bil.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\shell32_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\muzik.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\resim.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\prgekle.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\138.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\231.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\onay.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\masaustuu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\baslat.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\internet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\gecmiss.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\network %287%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\res.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\shell32_168.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\ara.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\oturum.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\donanim.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\LaST %28Cobalt%29 Customize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_54.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_174.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_156.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\WMP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msimn_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\276.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\about.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\LaST %28Cobalt%29 Control Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconlar\calistir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pan setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1001.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_151.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_20.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donanim.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

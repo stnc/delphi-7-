@@ -1,0 +1,31 @@
+file name:
+  GifImage.zip
+replacements:
+  GifImage 2.00 and
+  GifFiles 1.00,
+  (Which replaced (not officially, but de facto)
+      - gif.zip by Jeff Kinzer
+      - gif2bmpa.zip by Richard A Dominelli
+      - gifcode.zip by Richard Shotbolt)
+file version:
+  2.20
+description:
+  TGifImage component with test program and accompanying units
+  which can read and write GIF files (including animated Gifs) and
+  convert from and to TBitmap (.BMP). With some accompanying goodies.
+target:
+  Delphi 1, 2 and 3
+author name:
+  Reinier Sterkenburg
+author E-mail:
+  r.p.sterkenburg@dataweb.nl
+  sterkenburg@pml.tno.nl
+author URL:
+  http://www.dataweb.nl/~r.p.sterkenburg
+file status:
+  Freeware
+full source:
+  Yes
+category:
+  Component Collection (Graphics)
+

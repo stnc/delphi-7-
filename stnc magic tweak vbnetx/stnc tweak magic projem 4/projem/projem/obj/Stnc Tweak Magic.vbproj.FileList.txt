@@ -1,0 +1,45 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsApplication1.İndex.resources
+obj\Debug\WindowsApplication1.Resources.resources
+obj\Debug\Stnc Tweak Magic.vbproj.GenerateResource.Cache
+obj\Debug\WindowsApplication1.denetim_masa.resources
+obj\Debug\WindowsApplication1.masaustu.resources
+obj\Debug\WindowsApplication1.baslat_mnu.resources
+obj\Debug\WindowsApplication1.internet_box.resources
+obj\Debug\WindowsApplication1.media_player.resources
+obj\Debug\WindowsApplication1.outlook.resources
+obj\Debug\WindowsApplication1.sistem.resources
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\WindowsApplication1.baslat_mnu.resources
+obj\Release\WindowsApplication1.denetim_masa.resources
+obj\Release\WindowsApplication1.internet_box.resources
+obj\Release\WindowsApplication1.masaustu.resources
+obj\Release\WindowsApplication1.media_player.resources
+obj\Release\WindowsApplication1.msn_ayar.resources
+obj\Release\WindowsApplication1.outlook.resources
+obj\Release\WindowsApplication1.sistem.resources
+obj\Release\WindowsApplication1.İndex.resources
+obj\Release\Stnc Tweak Magic.vbproj.GenerateResource.Cache
+obj\Debug\WindowsApplication1.donanim.resources
+obj\Debug\WindowsApplication1.internet.resources
+obj\Debug\WindowsApplication1.sistem_klasörleri.resources
+obj\Debug\WindowsApplication1.tweak_tweak.resources
+obj\Debug\WindowsApplication1.araclar.resources
+obj\Debug\WindowsApplication1.sistem_dos.resources
+obj\Debug\WindowsApplication1.sistem_bil.resources
+bin\Debug\Stnc Tweaker.exe
+bin\Debug\Stnc Tweaker.pdb
+bin\Debug\Stnc Tweaker.xml
+obj\Debug\Stnc Tweaker.exe
+obj\Debug\Stnc Tweaker.xml
+obj\Debug\Stnc Tweaker.pdb
+obj\Debug\WindowsApplication1.guvenlik_form.resources
+obj\Release\WindowsApplication1.araclar.resources
+obj\Release\WindowsApplication1.donanim.resources
+obj\Release\WindowsApplication1.guvenlik_form.resources
+obj\Release\WindowsApplication1.internet.resources
+obj\Release\WindowsApplication1.sistem_dos.resources
+obj\Release\WindowsApplication1.sistem_klasörleri.resources
+obj\Release\WindowsApplication1.sistem_bil.resources
+obj\Release\WindowsApplication1.tweak_tweak.resources
+obj\Release\WindowsApplication1.Resources.resources

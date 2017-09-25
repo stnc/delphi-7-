@@ -1,0 +1,10 @@
+bin\Debug\Stnc Tweaker 5.0.exe
+bin\Debug\Stnc Tweaker 5.0.pdb
+bin\Debug\Stnc_Tweaker_5._0.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Stnc_Tweaker_5._0.Index.resources
+obj\Debug\Stnc_Tweaker_5._0.Resources.resources
+obj\Debug\Stnc Tweaker 5.0.vbproj.GenerateResource.Cache
+obj\Debug\Stnc Tweaker 5.0.exe
+obj\Debug\Stnc_Tweaker_5._0.xml
+obj\Debug\Stnc Tweaker 5.0.pdb

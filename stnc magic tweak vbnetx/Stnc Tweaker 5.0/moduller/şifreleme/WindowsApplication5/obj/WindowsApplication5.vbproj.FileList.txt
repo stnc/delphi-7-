@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsApplication5.Resources.resources
+obj\Debug\WindowsApplication5.vbproj.GenerateResource.Cache
+bin\Debug\WindowsApplication5.exe
+bin\Debug\WindowsApplication5.pdb
+bin\Debug\WindowsApplication5.xml
+obj\Debug\WindowsApplication5.exe
+obj\Debug\WindowsApplication5.xml
+obj\Debug\WindowsApplication5.pdb
+obj\Debug\WindowsApplication5.ana.resources
+obj\Debug\WindowsApplication5.ayar.resources

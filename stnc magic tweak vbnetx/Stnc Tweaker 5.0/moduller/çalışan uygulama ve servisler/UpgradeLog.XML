@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ProcessController">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\ProcessController.sln">
+</Property><Property Name="Date" Value="17 Haziran 2006 Cumartesi">
+</Property><Property Name="Time" Value="03:28">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ProcessController.sln" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\ProcessController.sln">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="ProcessController.vbproj" Description="Project file successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\ProcessController.vbproj">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="ProcessController.vbproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\ProcessController.vbproj.user">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="AssemblyInfo.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="DriverControllerManager.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\DriverControllerManager.vb">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="MainForm.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\MainForm.vb">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="ProcessControllerManager.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\ProcessControllerManager.vb">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="ServiceControllerManager.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\ServiceControllerManager.vb">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="ServiceInfo.vb" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\ServiceInfo.vb">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="licenses.licx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\licenses.licx">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="MainForm.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="ServiceInfo.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Belgelerim\VB\WinForms-ProcessController\ProcessController\Backup\ServiceInfo.resx">
+</Event><Event ErrorLevel="0" Project="ProcessController" Source="ProcessController.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ProcessController" Source="ProcessController.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ProcessController.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ProcessController.sln" Description="Converted">
+</Event><Event ErrorLevel="3" Project="ProcessController" Source="DriverControllerManager.vb" Description="file converted">
+</Event><Event ErrorLevel="3" Project="ProcessController" Source="ServiceControllerManager.vb" Description="file converted">
+</Event></UpgradeLog>

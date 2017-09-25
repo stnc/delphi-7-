@@ -1,0 +1,17 @@
+þifre 3 defa hatalý girlince program kendinini kapatýyor
+ayrýca her hatayý gösteriyor
+
+þifremi hatýrla check i þifrenin dogrulugunu kontrol ediyor
+
+
+'ama burdaki eksiklik check de 3 defa hata kontrolü yok buda bir güvenlik açýgý oluþturuyor AMA TABÝ KAPATILABLÝR
+
+PRGRAMDA ÞÝFRE OLMAAMSI HALÝNDE (BU BÝR DEFA MAHSUSU PROGRAMIN ÝLK ÇALIÞTIGI ZAMANA)  ANA MENÜYÜ GÖSTERÝR
+
+ÞÝFRE SORGULAMA ÝSE PROGRAMIN LOAD OLAYINDA ÞÝFRE YOKSA ÞÝFRE EKRANIN ÝÞARETLENSE AHÝ EKRANA GETÝR MÝYOR
+
+HER PRG DE OLDUGU GÝBÝ ESKÝ ÞÝFRE VE YENÝ ÞÝFRE KONTROLÜ VAR
+BUNLAR UYUÞURSA PROGRAM ÝÞLÝYOR
+
+
+þu an 340 satýr

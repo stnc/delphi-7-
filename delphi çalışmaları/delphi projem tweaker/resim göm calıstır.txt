@@ -1,0 +1,31 @@
+...Resource Dosyadan Bitmap Kullanýmý *.res
+
+{Projenizi oluþturduðunuz klasörde bir text dosya oluþturun ve newres.txt
+ismi ile aydedin. Dosyanýn ilk satýrýna da aþaðýdaki satýrý ilave edin.
+
+MY_BMP_RES BITMAP "bmpname.bmp"
+
+Dos Komut satýrýndan brcc32 newres.txt komutu ile dosyayý derleyin
+
+Böylelikle newres.res isimli bitmap dosyanýz oluþacaktýr.
+
+Bu dosyayý kullanmak için ise aþaðýdaki kodu kullanabilirsiniz:
+}
+unit Unit1;
+
+interface
+...
+
+var
+  MyBmp: TBitmap;
+
+implementation
+
+{$R *.DFM}
+{$R newres.res}  // Bu stýr eklendi!
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+    MyBmp := TBitmap.Create;
+    MyBmp.LoadFromResourceName(HInstance,'Skin_1_RES');
+end;
