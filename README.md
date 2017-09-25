@@ -8,10 +8,6 @@ Amatör olarak eğlencesine ve öğrenmek için bunları yapmıştım.
 2005-2008 ortalrındaki çalışmalardır
 
 
-### Eliptik Form
-<br>
-<img src="https://github.com/stnc/delphi7/blob/master/screenshots/eliptik_form_crack.png?raw=true">
-
 
 <br>
 
@@ -46,6 +42,11 @@ Amatör olarak eğlencesine ve öğrenmek için bunları yapmıştım.
 
 <img src="https://github.com/stnc/delphi7/blob/master/screenshots/acilis_screenshot.png?raw=true">
 
+<br>
+
+### Eliptik Form
+<br>
+<img src="https://github.com/stnc/delphi7/blob/master/screenshots/eliptik_form_crack.png?raw=true">
 
 
 <br>
