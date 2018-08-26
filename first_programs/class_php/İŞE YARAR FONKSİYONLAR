@@ -1,0 +1,10 @@
+//EN BAŞ VE EN SONDAKİLERİ SİL 
+
+	protected  function clears ($val) {
+		$toMails=substr($val,0, -1);
+		return trim(substr($toMails, 1));
+
+	}
+
+
+

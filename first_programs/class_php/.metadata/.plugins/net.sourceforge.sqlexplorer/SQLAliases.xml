@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aliases>
+  <alias auto-logon="true" connect-at-startup="true" driver-id="-6" has-no-user-name="false">
+    <name>localhost</name>
+    <url>jdbc:mysql://127.0.0.1:3306/</url>
+    <folder-filter-expression></folder-filter-expression>
+    <name-filter-expression></name-filter-expression>
+    <schema-filter-expression></schema-filter-expression>
+    <users>
+      <user auto-commit="true" commit-on-close="false">
+        <user-name>root</user-name>
+        <password>123456</password>
+      </user>
+    </users>
+    <default-user>root</default-user>
+  </alias>
+</aliases>
