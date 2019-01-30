@@ -1,6 +1,6 @@
 üniversite yıllarında yaptığım delphi 7 çalışmaları
 
-#my studies during university years
+# my studies during university years
 
 hala üniversitelerde delphi öğretiliyormu bilmiyorum ama belki birinin işine yarar, benim içinde nostalji olur diye buraya bırakıyorum 
 o zaman ki amatör kodlarım ,o yıllarda crack nasıl yapılır ,sistem yazılımları nasıl yapılır onlara meraklıydım 
